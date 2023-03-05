@@ -1,0 +1,208 @@
+/*Importando fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
+/*Base*/
+html {
+  max-width: 100%;
+}
+body {
+  background-color: #F8F8F8;
+  margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+a {
+  text-decoration-color: orange;
+}
+
+.riza-background {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  top: 0;
+  right: 30%;
+  left: 0;
+  background-size: auto 95vh;
+  background-attachment: scroll;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-image: url("https://media.discordapp.net/attachments/1066782915062681671/1071937899156754442/riza-background.png");
+}
+
+.riza-apresentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0 0 10%;
+  max-width: 30rem;
+}
+
+.riza-apresentation h1 {
+  text-align: center;
+  line-height: 60px;
+  font-size: 65px;
+  color: orange;
+  font-family: 'Poppins', sans-serif;
+}
+
+.riza-apresentation p {
+  text-align: center;
+  margin-top: -40px;
+  line-height: 20px;
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-button {
+  font-family: "Nunito", sans-serif;
+  min-height: 45px;
+  min-width: 120px;
+  border-radius: 45px;
+  border: none;
+  background-color: #0070FF;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.buttons-area {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: start;
+}
+
+.custom-button-lg {
+  min-height: 42px;
+  min-width: 95px;
+  border-radius: 8px;
+  border: none;
+  background-color: orange;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.divider {
+  width: 100%;
+  height: 10px;
+  background-color: orange;
+}
+
+.features-cards-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-card {
+  width: 15rem;
+  height: 20rem;
+  background-color: #545D7B;
+  border-radius: 16px;
+  margin: 2rem;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 5px 6px rgba(0,0,0,.2);
+}
+.feature-card h2 {
+  margin-top: 0px;
+  color: #ffa500;
+  font-family: Poppins, sans-serif;
+}
+
+.feature-card p {
+  color: white; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  margin-top: -13px
+}
+
+.devs-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.devs-card {
+  width: 15rem;
+  height: 20rem;
+  background-color: #545D7B;
+  border-radius: 16px;
+  margin: 2rem;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 5px 6px rgba(0,0,0,.2);
+}
+.devs-card h2 {
+  margin-top: 0px;
+  color: #ffa500;
+  font-family: Poppins, sans-serif;
+}
+
+.devs-card p {
+  color: white; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+
+.devs-card img{
+  width: 220px;
+  height: auto;
+  border-radius: 16px;
+}
+
+.terms-description {
+  font-size: 15px;
+  color: #FFF;
+  max-width: 70%;
+  font-family: 'Montserrat', sans-serif;
+}
+.terms-subtitle {
+  color: #A5B4F1;
+  font-size: 20px;
+  text-decoration: underline;
+}
+@media screen and (max-width: 1020px) {
+  .riza-background {
+    background-size: 0px;
+  }
+  .riza-apresentation {
+    justify-content: center;
+    margin: 5rem 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 865px) {
+  .devs-section {
+    flex-direction: column;
+  }
+  .features-cards-container {
+    flex-direction: column;
+  }
+  .terms-description {
+    max-width: 95%;
+  }
+}
