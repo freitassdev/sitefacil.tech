@@ -21,7 +21,7 @@ ul {
 a {
   text-decoration-color: orange;
 }
-
+/*Não utilizado*/
 .riza-background {
   z-index: -1;
   width: 100%;
@@ -37,7 +37,7 @@ a {
   background-repeat: no-repeat;
   background-image: url("https://media.discordapp.net/attachments/1066782915062681671/1071937899156754442/riza-background.png");
 }
-
+/*Não utilizado*/
 .riza-apresentation {
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@ a {
   margin: 5rem 0 0 10%;
   max-width: 30rem;
 }
-
+/*Não utilizado*/
 .riza-apresentation h1 {
   text-align: center;
   line-height: 60px;
@@ -53,7 +53,7 @@ a {
   color: orange;
   font-family: 'Poppins', sans-serif;
 }
-
+/*Não utilizado*/
 .riza-apresentation p {
   text-align: center;
   margin-top: -40px;
@@ -99,7 +99,7 @@ a {
   height: 10px;
   background-color: orange;
 }
-
+/*Não utilizado*/
 .features-cards-container {
   width: 100%;
   height: 100%;
@@ -108,7 +108,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-
+/*Não utilizado*/
 .feature-card {
   width: 15rem;
   height: 20rem;
@@ -119,12 +119,13 @@ a {
   padding: 10px;
   box-shadow: 0 5px 6px rgba(0,0,0,.2);
 }
+/*Não utilizado*/
 .feature-card h2 {
   margin-top: 0px;
   color: #ffa500;
   font-family: Poppins, sans-serif;
 }
-
+/*Não utilizado*/
 .feature-card p {
   color: white; 
   font-family: 'Montserrat', sans-serif;
@@ -133,7 +134,7 @@ a {
   text-align: center;
   margin-top: -13px
 }
-
+/*Não utilizado*/
 .devs-section {
   width: 100%;
   height: 100%;
@@ -142,7 +143,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-
+/*Não utilizado*/
 .devs-card {
   width: 15rem;
   height: 20rem;
@@ -152,13 +153,13 @@ a {
   text-align: center;
   padding: 10px;
   box-shadow: 0 5px 6px rgba(0,0,0,.2);
-}
+}/*Não utilizado*/
 .devs-card h2 {
   margin-top: 0px;
   color: #ffa500;
   font-family: Poppins, sans-serif;
 }
-
+/*Não utilizado*/
 .devs-card p {
   color: white; 
   font-family: 'Montserrat', sans-serif;
@@ -166,24 +167,24 @@ a {
   font-size: 15px;
   text-align: center;
 }
-
+/*Não utilizado*/
 .devs-card img{
   width: 220px;
   height: auto;
   border-radius: 16px;
 }
-
+/*Não utilizado*/
 .terms-description {
   font-size: 15px;
   color: #FFF;
   max-width: 70%;
   font-family: 'Montserrat', sans-serif;
-}
+}/*Não utilizado*/
 .terms-subtitle {
   color: #A5B4F1;
   font-size: 20px;
   text-decoration: underline;
-}
+}/*Não utilizado*/
 @media screen and (max-width: 1020px) {
   .riza-background {
     background-size: 0px;
@@ -194,7 +195,7 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
-}
+}/*Não utilizado*/
 @media screen and (max-width: 865px) {
   .devs-section {
     flex-direction: column;
